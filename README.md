@@ -3,7 +3,7 @@
 - Movie review and recommendation site
 
 <p align="center">
-  <img width="600" height="300" src="https://user-images.githubusercontent.com/83842735/209914201-0329c559-6777-4652-9e78-5fcf424db72d.PNG">
+  <img width="590" height="290" src="https://user-images.githubusercontent.com/83842735/209914201-0329c559-6777-4652-9e78-5fcf424db72d.PNG">
 </p>
 
 
