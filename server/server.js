@@ -23,7 +23,7 @@ app.get("/api/v1/movies", async (req, res) => {
     });
 });
 
-// Get one movie
+// Get a single movie
 app.get("/api/v1/movies/:id", async (req, res) => {
     const movie = await db.query("select * from movies left join (select movie_id, count(*), trunc(avg(rating),1) as average_rating from reviews group by movie_id) reviews on movies.id = reviews.movie_id where id = $1",
         [req.params.id]);
